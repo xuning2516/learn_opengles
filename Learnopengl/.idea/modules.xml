@@ -4,6 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Learnopengl.iml" filepath="$PROJECT_DIR$/Learnopengl.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example6_6/example6_6.iml" filepath="$PROJECT_DIR$/example6_6/example6_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapbuffers/mapbuffers.iml" filepath="$PROJECT_DIR$/mapbuffers/mapbuffers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opengltemple/opengltemple.iml" filepath="$PROJECT_DIR$/opengltemple/opengltemple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplevertexshader/simplevertexshader.iml" filepath="$PROJECT_DIR$/simplevertexshader/simplevertexshader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/texturewrap/texturewrap.iml" filepath="$PROJECT_DIR$/texturewrap/texturewrap.iml" />
     </modules>
   </component>
 </project>
