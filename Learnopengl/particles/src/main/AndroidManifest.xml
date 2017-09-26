@@ -8,7 +8,7 @@
  ! Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.particles.android"
+    package="com.royole.particles"
     android:versionCode="1"
     android:versionName="1.0" >
 

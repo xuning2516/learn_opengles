@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.programs;
+package com.royole.livewallpaper.programs;
 
 import static android.opengl.GLES20.GL_TEXTURE0;
 import static android.opengl.GLES20.GL_TEXTURE_2D;
@@ -19,7 +19,7 @@ import static android.opengl.GLES20.glUniform1i;
 import static android.opengl.GLES20.glUniformMatrix4fv;
 import android.content.Context;
 
-import com.particles.android.R;
+import com.royole.livewallpaper.R;
 
 public class ParticleShaderProgram extends ShaderProgram {
     // Uniform locations

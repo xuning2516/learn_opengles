@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.objects;
+package com.royole.livewallpaper.objects;
 
 import static android.opengl.GLES20.GL_TRIANGLES;
 import static android.opengl.GLES20.GL_UNSIGNED_BYTE;
@@ -14,8 +14,8 @@ import static android.opengl.GLES20.glDrawElements;
 
 import java.nio.ByteBuffer;
 
-import com.particles.android.data.VertexArray;
-import com.particles.android.programs.SkyboxShaderProgram;
+import com.royole.livewallpaper.data.VertexArray;
+import com.royole.livewallpaper.programs.SkyboxShaderProgram;
 
 public class Skybox {
     private static final int POSITION_COMPONENT_COUNT = 3;

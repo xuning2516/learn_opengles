@@ -30,15 +30,15 @@
 //            http://my.safaribooksonline.com/book/animation-and-3d/9780133440133
 //
 
-package com.openglesbook.simpletexturecubemap;
+package com.royole.simpletexturecubemap;
 
 import java.nio.ByteBuffer;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import com.openglesbook.common.ESShader;
-import com.openglesbook.common.ESShapes;
+import com.royole.common.ESShader;
+import com.royole.common.ESShapes;
 
 import android.content.Context;
 import android.opengl.GLES30;

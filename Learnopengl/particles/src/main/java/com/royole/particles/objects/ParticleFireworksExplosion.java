@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.objects;
+package com.royole.particles.objects;
 
 import static android.opengl.Matrix.multiplyMV;
 import static android.opengl.Matrix.setRotateEulerM;
@@ -15,8 +15,8 @@ import java.util.Random;
 
 import android.graphics.Color;
 
-import com.particles.android.util.Geometry.Point;
-import com.particles.android.util.Geometry.Vector;
+import com.royole.particles.util.Geometry.Point;
+import com.royole.particles.util.Geometry.Vector;
 
 public class ParticleFireworksExplosion {
     private final Random random = new Random();

@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.wallpaper;
+package com.royole.livewallpaper.wallpaper;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -18,8 +18,8 @@ import android.util.Log;
 import android.view.SurfaceHolder;
 import android.widget.Toast;
 
-import com.particles.android.ParticlesRenderer;
-import com.particles.android.util.LoggerConfig;
+import com.royole.livewallpaper.ParticlesRenderer;
+import com.royole.livewallpaper.util.LoggerConfig;
 
 public class GLWallpaperService extends WallpaperService {
     @Override

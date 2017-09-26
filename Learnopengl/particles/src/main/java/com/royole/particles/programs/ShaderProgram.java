@@ -6,13 +6,13 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.programs;
+package com.royole.particles.programs;
 
 import static android.opengl.GLES20.glUseProgram;
 import android.content.Context;
 
-import com.particles.android.util.ShaderHelper;
-import com.particles.android.util.TextResourceReader;
+import com.royole.particles.util.ShaderHelper;
+import com.royole.particles.util.TextResourceReader;
 abstract class ShaderProgram {
     // Uniform constants
     protected static final String U_MATRIX = "u_Matrix";

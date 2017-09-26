@@ -6,14 +6,14 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.data;
+package com.royole.livewallpaper.data;
 
 import static android.opengl.GLES20.GL_ELEMENT_ARRAY_BUFFER;
 import static android.opengl.GLES20.GL_STATIC_DRAW;
 import static android.opengl.GLES20.glBindBuffer;
 import static android.opengl.GLES20.glBufferData;
 import static android.opengl.GLES20.glGenBuffers;
-import static com.particles.android.Constants.BYTES_PER_SHORT;
+import static com.royole.livewallpaper.Constants.BYTES_PER_SHORT;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

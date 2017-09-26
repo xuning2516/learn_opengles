@@ -7,7 +7,7 @@
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
 
-package com.particles.android;
+package com.royole.particles;
 
 import static android.opengl.GLES20.GL_BLEND;
 import static android.opengl.GLES20.GL_COLOR_BUFFER_BIT;
@@ -28,13 +28,13 @@ import android.content.Context;
 import android.graphics.Color;
 import android.opengl.GLSurfaceView.Renderer;
 
-import com.particles.android.objects.ParticleShooter;
-import com.particles.android.objects.ParticleSystem;
-import com.particles.android.programs.ParticleShaderProgram;
-import com.particles.android.util.Geometry.Point;
-import com.particles.android.util.Geometry.Vector;
-import com.particles.android.util.MatrixHelper;
-import com.particles.android.util.TextureHelper;
+import com.royole.particles.objects.ParticleShooter;
+import com.royole.particles.objects.ParticleSystem;
+import com.royole.particles.programs.ParticleShaderProgram;
+import com.royole.particles.util.Geometry.Point;
+import com.royole.particles.util.Geometry.Vector;
+import com.royole.particles.util.MatrixHelper;
+import com.royole.particles.util.TextureHelper;
 
 public class ParticlesRenderer implements Renderer {
     private final Context context;

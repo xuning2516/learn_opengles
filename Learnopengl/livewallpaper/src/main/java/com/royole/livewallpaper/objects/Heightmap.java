@@ -6,23 +6,23 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.objects;
+package com.royole.livewallpaper.objects;
 
 import static android.opengl.GLES20.GL_ELEMENT_ARRAY_BUFFER;
 import static android.opengl.GLES20.GL_TRIANGLES;
 import static android.opengl.GLES20.GL_UNSIGNED_SHORT;
 import static android.opengl.GLES20.glBindBuffer;
 import static android.opengl.GLES20.glDrawElements;
-import static com.particles.android.Constants.BYTES_PER_FLOAT;
+import static com.royole.livewallpaper.Constants.BYTES_PER_FLOAT;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 
-import com.particles.android.data.IndexBuffer;
-import com.particles.android.data.VertexBuffer;
-import com.particles.android.programs.HeightmapShaderProgram;
-import com.particles.android.util.Geometry;
-import com.particles.android.util.Geometry.Point;
-import com.particles.android.util.Geometry.Vector;
+import com.royole.livewallpaper.data.IndexBuffer;
+import com.royole.livewallpaper.data.VertexBuffer;
+import com.royole.livewallpaper.programs.HeightmapShaderProgram;
+import com.royole.livewallpaper.util.Geometry;
+import com.royole.livewallpaper.util.Geometry.Point;
+import com.royole.livewallpaper.util.Geometry.Vector;
 
 public class Heightmap {
     private static final int POSITION_COMPONENT_COUNT = 3;

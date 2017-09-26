@@ -1,1 +1,1 @@
-include ':app', ':example6_6', ':common', ':texturewrap', ':simplevertexshader', ':opengltemple', ':mapbuffers'
+include ':app', ':example6_6', ':common', ':texturewrap', ':simplevertexshader', ':opengltemple', ':mapbuffers', ':simple_texture2d', ':mipmap2d', ':simple_texturecubemap', ':multitexture', ':particlesystem', ':livewallpaper', ':skybox', ':particles'

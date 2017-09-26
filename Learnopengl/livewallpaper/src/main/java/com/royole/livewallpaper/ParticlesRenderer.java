@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android;
+package com.royole.livewallpaper;
 
 import static android.opengl.GLES20.GL_BLEND;
 import static android.opengl.GLES20.GL_COLOR_BUFFER_BIT;
@@ -43,18 +43,18 @@ import android.opengl.GLSurfaceView.Renderer;
 import android.os.SystemClock;
 import android.util.Log;
 
-import com.particles.android.objects.Heightmap;
-import com.particles.android.objects.ParticleShooter;
-import com.particles.android.objects.ParticleSystem;
-import com.particles.android.objects.Skybox;
-import com.particles.android.programs.HeightmapShaderProgram;
-import com.particles.android.programs.ParticleShaderProgram;
-import com.particles.android.programs.SkyboxShaderProgram;
-import com.particles.android.util.Geometry.Point;
-import com.particles.android.util.Geometry.Vector;
-import com.particles.android.util.LoggerConfig;
-import com.particles.android.util.MatrixHelper;
-import com.particles.android.util.TextureHelper;
+import com.royole.livewallpaper.objects.Heightmap;
+import com.royole.livewallpaper.objects.ParticleShooter;
+import com.royole.livewallpaper.objects.ParticleSystem;
+import com.royole.livewallpaper.objects.Skybox;
+import com.royole.livewallpaper.programs.HeightmapShaderProgram;
+import com.royole.livewallpaper.programs.ParticleShaderProgram;
+import com.royole.livewallpaper.programs.SkyboxShaderProgram;
+import com.royole.livewallpaper.util.Geometry.Point;
+import com.royole.livewallpaper.util.Geometry.Vector;
+import com.royole.livewallpaper.util.LoggerConfig;
+import com.royole.livewallpaper.util.MatrixHelper;
+import com.royole.livewallpaper.util.TextureHelper;
 
 public class ParticlesRenderer implements Renderer {   
     private static final String TAG = "ParticlesRenderer";

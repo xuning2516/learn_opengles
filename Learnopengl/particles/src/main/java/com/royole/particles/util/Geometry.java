@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.util;
+package com.royole.particles.util;
 
 import android.util.FloatMath;
 
@@ -42,7 +42,7 @@ public class Geometry {
         }
 
         public float length() {
-            return FloatMath.sqrt(
+            return (float)Math.sqrt(
                 x * x 
               + y * y 
               + z * z);

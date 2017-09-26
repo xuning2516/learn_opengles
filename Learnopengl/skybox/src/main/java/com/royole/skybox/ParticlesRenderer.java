@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android;
+package com.royole.skybox;
 
 import static android.opengl.GLES20.GL_BLEND;
 import static android.opengl.GLES20.GL_COLOR_BUFFER_BIT;
@@ -29,15 +29,15 @@ import android.content.Context;
 import android.graphics.Color;
 import android.opengl.GLSurfaceView.Renderer;
 
-import com.particles.android.objects.ParticleShooter;
-import com.particles.android.objects.ParticleSystem;
-import com.particles.android.objects.Skybox;
-import com.particles.android.programs.ParticleShaderProgram;
-import com.particles.android.programs.SkyboxShaderProgram;
-import com.particles.android.util.Geometry.Point;
-import com.particles.android.util.Geometry.Vector;
-import com.particles.android.util.MatrixHelper;
-import com.particles.android.util.TextureHelper;
+import com.royole.skybox.objects.ParticleShooter;
+import com.royole.skybox.objects.ParticleSystem;
+import com.royole.skybox.objects.Skybox;
+import com.royole.skybox.programs.ParticleShaderProgram;
+import com.royole.skybox.programs.SkyboxShaderProgram;
+import com.royole.skybox.util.Geometry.Point;
+import com.royole.skybox.util.Geometry.Vector;
+import com.royole.skybox.util.MatrixHelper;
+import com.royole.skybox.util.TextureHelper;
 
 public class ParticlesRenderer implements Renderer {    
     private final Context context;
@@ -133,7 +133,7 @@ public class ParticlesRenderer implements Renderer {
     public void onDrawFrame(GL10 glUnused) {        
         glClear(GL_COLOR_BUFFER_BIT);
         drawSkybox();
-        drawParticles();
+        //drawParticles();
     }
     
     private void drawSkybox() {

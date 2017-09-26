@@ -6,9 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.util;
-
-import android.util.FloatMath;
+package com.royole.skybox.util;
 
 public class Geometry {                
     public static class Point {
@@ -42,7 +40,7 @@ public class Geometry {
         }
 
         public float length() {
-            return FloatMath.sqrt(
+            return (float)Math.sqrt(
                 x * x 
               + y * y 
               + z * z);

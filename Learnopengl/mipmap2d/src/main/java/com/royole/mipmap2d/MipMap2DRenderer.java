@@ -36,7 +36,7 @@
 //    and rendering with it
 //
 
-package com.openglesbook.mipmap2d;
+package com.royole.mipmap2d;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -46,7 +46,7 @@ import java.nio.ShortBuffer;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import com.openglesbook.common.ESShader;
+import com.royole.common.ESShader;
 
 import android.content.Context;
 import android.opengl.GLES30;
@@ -135,27 +135,24 @@ public class MipMap2DRenderer implements GLSurfaceView.Renderer
       byte[] pixels = new byte[width * height * 3];
 
 
-      for ( y = 0; y < height; y++ )
-         for ( x = 0; x < width; x++ )
-         {
+      for ( y = 0; y < height; y++ ) {
+         for (x = 0; x < width; x++) {
             byte rColor = 0;
             byte bColor = 0;
 
-            if ( ( x / checkSize ) % 2 == 0 )
-            {
-               rColor = ( byte ) ( 127 * ( ( y / checkSize ) % 2 ) );
-               bColor = ( byte ) ( 127 * ( 1 - ( ( y / checkSize ) % 2 ) ) );
-            }
-            else
-            {
-               bColor = ( byte ) ( 127 * ( ( y / checkSize ) % 2 ) );
-               rColor = ( byte ) ( 127 * ( 1 - ( ( y / checkSize ) % 2 ) ) );
+            if ((x / checkSize) % 2 == 0) {
+               rColor = (byte) (127 * ((y / checkSize) % 2));
+               bColor = (byte) (127 * (1 - ((y / checkSize) % 2)));
+            } else {
+               bColor = (byte) (127 * ((y / checkSize) % 2));
+               rColor = (byte) (127 * (1 - ((y / checkSize) % 2)));
             }
 
-            pixels[ ( y * width + x ) * 3] = rColor;
-            pixels[ ( y * width + x ) * 3 + 1] = 0;
-            pixels[ ( y * width + x ) * 3 + 2] = bColor;
+            pixels[(y * width + x) * 3] = rColor;
+            pixels[(y * width + x) * 3 + 1] = 0;
+            pixels[(y * width + x) * 3 + 2] = bColor;
          }
+      }
 
       return pixels;
    }

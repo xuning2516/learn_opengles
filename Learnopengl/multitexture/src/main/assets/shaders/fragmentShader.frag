@@ -52,5 +52,5 @@ void main()
   	baseColor = texture( s_baseMap, v_texCoord ); 
   	lightColor = texture( s_lightMap, v_texCoord );
 
-  	outColor = baseColor * (lightColor + 0.25);   
+  	outColor = baseColor * (lightColor + 0.25);
 }

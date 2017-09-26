@@ -30,7 +30,7 @@
 //            http://my.safaribooksonline.com/book/animation-and-3d/9780133440133
 //
 
-package com.openglesbook.mipmap2d;
+package com.royole.mipmap2d;
 
 import android.app.Activity;
 import android.app.ActivityManager;

@@ -6,17 +6,17 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.objects;
+package com.royole.livewallpaper.objects;
 
 import static android.opengl.GLES20.GL_POINTS;
 import static android.opengl.GLES20.glDrawArrays;
-import static com.particles.android.Constants.BYTES_PER_FLOAT;
+import static com.royole.livewallpaper.Constants.BYTES_PER_FLOAT;
 import android.graphics.Color;
 
-import com.particles.android.data.VertexArray;
-import com.particles.android.programs.ParticleShaderProgram;
-import com.particles.android.util.Geometry.Point;
-import com.particles.android.util.Geometry.Vector;
+import com.royole.livewallpaper.data.VertexArray;
+import com.royole.livewallpaper.programs.ParticleShaderProgram;
+import com.royole.livewallpaper.util.Geometry.Point;
+import com.royole.livewallpaper.util.Geometry.Vector;
 
 public class ParticleSystem {
     private static final int POSITION_COMPONENT_COUNT = 3;

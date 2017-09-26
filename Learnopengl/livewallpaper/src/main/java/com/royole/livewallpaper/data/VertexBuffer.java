@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.data;
+package com.royole.livewallpaper.data;
 
 import static android.opengl.GLES20.GL_ARRAY_BUFFER;
 import static android.opengl.GLES20.GL_FLOAT;
@@ -16,7 +16,7 @@ import static android.opengl.GLES20.glBufferData;
 import static android.opengl.GLES20.glEnableVertexAttribArray;
 import static android.opengl.GLES20.glGenBuffers;
 import static android.opengl.GLES20.glVertexAttribPointer;
-import static com.particles.android.Constants.BYTES_PER_FLOAT;
+import static com.royole.livewallpaper.Constants.BYTES_PER_FLOAT;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

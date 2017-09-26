@@ -37,7 +37,7 @@
 //    the basics of 2D texturing
 //
 
-package com.royole.simple_texture2d;
+package com.royole.simpletexture2d;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -50,8 +50,10 @@ import javax.microedition.khronos.opengles.GL10;
 import com.royole.common.ESShader;
 
 import android.content.Context;
+import android.opengl.GLES20;
 import android.opengl.GLES30;
 import android.opengl.GLSurfaceView;
+import android.util.Log;
 
 public class SimpleTexture2DRenderer implements GLSurfaceView.Renderer
 {
@@ -150,13 +152,12 @@ public class SimpleTexture2DRenderer implements GLSurfaceView.Renderer
    // /
    // Draw a triangle using the shader pair created in onSurfaceCreated()
    //
-   public void onDrawFrame ( GL10 glUnused )
-   {
+   public void onDrawFrame ( GL10 glUnused ) {
       // Set the viewport
       GLES30.glViewport ( 0, 0, mWidth, mHeight );
 
       // Clear the color buffer
-      GLES30.glClear ( GLES30.GL_COLOR_BUFFER_BIT );
+      GLES30.glClear ( GLES30.GL_COLOR_BUFFER_BIT);
 
       // Use the program object
       GLES30.glUseProgram ( mProgramObject );
@@ -189,8 +190,7 @@ public class SimpleTexture2DRenderer implements GLSurfaceView.Renderer
    ///
    // Handle surface changes
    //
-   public void onSurfaceChanged ( GL10 glUnused, int width, int height )
-   {
+   public void onSurfaceChanged(GL10 glUnused, int width, int height){
       mWidth = width;
       mHeight = height;
    }

@@ -36,7 +36,7 @@
 //    using a vertex shader and point sprites.
 //
 
-package com.openglesbook.particlesystem;
+package com.royole.particlesystem;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -44,7 +44,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 
-import com.openglesbook.common.ESShader;
+import com.royole.common.ESShader;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;

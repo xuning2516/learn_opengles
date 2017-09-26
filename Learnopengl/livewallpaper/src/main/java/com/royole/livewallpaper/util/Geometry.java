@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.util;
+package com.royole.livewallpaper.util;
 
 import android.util.FloatMath;
 
@@ -42,10 +42,11 @@ public class Geometry {
         }
 
         public float length() {
-            return FloatMath.sqrt(
-                x * x 
-              + y * y 
+            return (float)Math.sqrt(
+                x * x
+              + y * y
               + z * z);
+
         }
         
         // http://en.wikipedia.org/wiki/Cross_product        

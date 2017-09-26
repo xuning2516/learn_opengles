@@ -36,7 +36,7 @@
 //    lightmap to demonstrate multitexturing.
 //
 
-package com.openglesbook.multitexture;
+package com.royole.multitexture;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -48,7 +48,7 @@ import java.nio.ShortBuffer;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import com.openglesbook.common.ESShader;
+import com.royole.common.ESShader;
 
 import android.content.Context;
 import android.graphics.Bitmap;

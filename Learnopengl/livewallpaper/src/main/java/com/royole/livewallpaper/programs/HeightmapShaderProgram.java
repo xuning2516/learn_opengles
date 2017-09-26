@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/kbogla for more book information.
 ***/
-package com.particles.android.programs;
+package com.royole.livewallpaper.programs;
 
 import static android.opengl.GLES20.glGetAttribLocation;
 import static android.opengl.GLES20.glGetUniformLocation;
@@ -15,7 +15,7 @@ import static android.opengl.GLES20.glUniform4fv;
 import static android.opengl.GLES20.glUniformMatrix4fv;
 import android.content.Context;
 
-import com.particles.android.R;
+import com.royole.livewallpaper.R;
 
 public class HeightmapShaderProgram extends ShaderProgram {           
     private final int uVectorToLightLocation;
