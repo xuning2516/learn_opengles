@@ -114,7 +114,7 @@ public class Triangle {
         GLES20.glAttachShader(mProgram, fragmentShader); // add the fragment shader to program
         GLES20.glLinkProgram(mProgram);                  // create OpenGL program executables
         */
-        mProgram = ShaderHelper.linkProgram(vertexShader,fragmentShader);
+        mProgram = ShaderHelper.loadProgram(vertexShader,fragmentShader);
 
     }
 
@@ -159,7 +159,6 @@ public class Triangle {
 
         // Disable vertex array
         GLES20.glDisableVertexAttribArray(mPositionHandle);
-        //Log.d(TAG, "draw: ");
     }
 
 }

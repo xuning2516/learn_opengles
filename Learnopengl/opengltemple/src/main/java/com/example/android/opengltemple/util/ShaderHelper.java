@@ -141,7 +141,7 @@ public class ShaderHelper {
     }
 
 
-    public static int linkProgram(final int vertexShaderId, final int fragmentShaderId){
+    public static int loadProgram(final int vertexShaderId, final int fragmentShaderId){
         final int programObejctId = GLES20.glCreateProgram();
 
         if(programObejctId == 0){
